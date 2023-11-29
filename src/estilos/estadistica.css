@@ -1,0 +1,128 @@
+.estadisticas_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+
+.titu_esta{
+    width: 80%;
+    font-size: 2em;
+    line-height: 30px;
+    color: #008f39;
+    padding-bottom: 50px;
+    border-bottom: solid 4px #008f39;
+}
+
+.titu_masp{
+    width: 80%;
+    font-size: 25px;
+    line-height: 10px;
+    color: #008f39;
+    padding-bottom: 30px;
+    border-bottom: solid 4px #008f39;
+    margin-left: 10%;
+}
+
+.collag{
+    width: 80%;
+}
+
+.horario_location{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    background-color: rgba(216, 90, 31, 0.212);
+    color: #008f39;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    cursor: pointer;
+}
+
+.Barra-lateral_link{
+    font-size: 25px;
+    color: #008f39;
+    display: block;
+    margin:5px 0 5px 40px;
+    text-decoration: none;
+}
+
+.Barra-lateral_arrow{
+    color: #f2f2f2;
+    margin-left: auto;
+    margin-right: 10px;
+    transition: transform .3s;
+}
+
+.arrow .Barra-lateral_arrow{
+    transform: rotate(280deg);
+}
+
+.estadis{
+    width: 98%;
+    margin: 0 auto;
+    background:  #341100;
+    color: #f2f2f2;
+    display: none;
+    padding: 1%;
+}
+
+.funciones_mostrar{
+    display: block;
+}
+
+.option_funtion{
+    width: 100%;
+    margin: 0 auto 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grafica{
+    margin-top: 30px;
+    width: 80%;
+}
+
+.mas-vendidos{
+    width: 70%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.ventas-contenedor{
+    width: 100%;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.venta-texto{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.venta-texto p,
+.venta-texto h6{
+    font-size: 15px;
+}
+
+.venta_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 3%;
+}

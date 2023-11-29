@@ -1,0 +1,283 @@
+.modal_regis-d{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    pointer-events: none;
+    display: flex;
+    opacity:0;
+}
+
+
+.modal_actualizar-show{
+    opacity: 1;
+    pointer-events: inherit;
+}
+
+.modal_container{
+    width: 70%;
+    max-width: 750px;
+    background-color: #46220f;
+    margin: 110px auto auto auto;
+    border-radius: 6px;
+    place-items: center;
+    grid-auto-columns: 100%;
+    display: flex;
+}
+
+.img_ca{
+    width: 200px;
+    height: 270px;
+    margin: 15px;
+}
+
+.modal_info{
+    background-color: #008f39;
+    width: 500px;
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.informacion_f{
+    margin: 10px;
+}
+
+.agregar_btn{
+    background-color: #e5e619;
+    display: inline;
+    margin-left: 30%;
+    list-style: none;
+    width: 100px;
+    padding: 10px;
+    line-height: 50px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.conta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valor_l{
+  background: #59412f;
+  width: 70%;
+  height: 40px;
+  top: 900px;
+  border: 4px solid #008f39;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.numero_l{
+  position: absolute;
+  font-size: 20px;
+  margin-left: 1%;
+}
+
+.Total_l{
+  position: absolute;
+  font-size: 20px;
+  margin-left: 13%;
+}
+
+.btnagre{
+    background-color: #008f39;
+    border-radius: 360px;
+    cursor: pointer;
+    border: 0;
+    margin-left: 5px;
+}
+
+.agreg{
+    width: 30px;
+}
+
+.quit{
+    width: 22px;
+    padding: 4px;
+}
+
+.otros{
+  font-size: 2em;
+  line-height: 30px;
+  color: #008f39;
+  padding-bottom: 50px;
+  margin: 0 0 5px 40px;
+  border-bottom: solid 4px #008f39;
+}
+
+.container_carrucel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenesm{
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    margin: 0 5px;
+}
+
+.arrowbtn{
+    background-color: #008f39;
+    border-color: #008f39;
+}
+
+.carrito_area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carritoimg{
+    width: 400px;
+    height: 400px;
+    margin-right: 10%;
+}
+
+.tareas-lista-principal{
+    width: 600px;
+    min-height: 500px;
+    line-height: 50px;
+    background-color: rgba(216, 90, 31, 0.212);
+    padding: 25px;
+    margin: 10px;
+    border-radius: 26px;
+}
+
+.tarea-contenedor {
+    width: 500px;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.eli{
+    width: 25px;
+    left: 80%;
+}
+
+.tarea-texto {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.tarea-texto h6,
+.tarea-texto p{
+    font-size: 15px;
+}
+
+.tarea_form{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarea_input{
+    width: 50%;
+    height: 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 2px solid #008f39;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.btn_tarea{
+    width: 150px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    list-style: none;
+    cursor: pointer;
+    outline: none;
+    background: #008f39;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.btn_tarea a{
+    text-decoration: none;
+}
+
+.produc_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 3%;
+}
+
+.factu{
+    justify-content: center;
+    align-items: center;
+}
+
+.valor_f{
+  background-color: rgba(216, 90, 31, 0.212);
+  width: 70%;
+  height: 40px;
+  top: 900px;
+  border: 4px solid #008f39;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-left: 15%;
+}
+
+.numero_f{
+    font-size: 20px;
+    margin-left: 3%;
+  }
+  
+.Total_f{
+    font-size: 20px;
+    margin-right: 3%;
+}
+
+.btn_compra{
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    list-style: none;
+    cursor: pointer;
+    outline: none;
+    background: #008f39;
+    text-transform: capitalize;
+    margin-left: 40%;
+    text-align: center ;
+}
+
+.btn_compra a{
+    text-decoration: none;
+}

@@ -1,0 +1,136 @@
+.form_l{
+    width: 350px;
+    max-height: 1100px ;
+    margin: 80px auto;
+    background: #59412f;
+    border-radius: 10px;
+    padding: 12px auto;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 1);
+}
+
+.login-form{
+    width: 600px;
+    height: 560px;
+    padding: 15px;
+    margin-right: 10%;
+    background: #59412f;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 1);
+}
+
+.ingre{
+    text-align: center;
+    font-size: 2em;
+    line-height: 30px;
+    color: #bdeddc;
+    margin-top: 0;
+}
+
+.labeles{
+    display: block;
+    color: #bdeddc;
+}
+
+.formulario_inputs{
+    width: 250px;
+    height: 25px;
+    padding: 5px;   
+    border:none;
+    margin: 0 20px 30px 20px;
+    background: #b8daba;
+    border-radius: 10px;
+    outline: none;
+}
+
+.inputs_l{
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    background: #b8daba;
+}
+
+select, label{
+    margin-left: 30px;
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 70%;
+}
+
+select{
+    background-color: #b8daba;
+}
+
+.btn{
+    display: inline;
+    list-style: none;
+    width: 100px;
+    padding: 10px;
+    line-height: 50px;
+    border-radius: 10px;
+    background: #008f39;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.btni{
+    margin-left: 40%;
+}
+
+.btnr{
+    margin-left: 36%;
+}
+
+.logo_u{
+    max-width: 120px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.Login-inputs{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.formulario_div{
+    position: relative;
+    width: 300px;
+}
+
+.form_tdoc{
+    width: 260px;
+    height: 35px;
+    padding: 5px;   
+    border:none;
+    margin: 0 20px 30px 20px;
+    background: #b8daba;
+    border-radius: 10px;
+    outline: none;
+}
+
+.fondo{
+    background-image: url(../imagenes/fondo_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo_2{
+    background-image: url(../imagenes/fondo_1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}

@@ -1,0 +1,73 @@
+.area_perfil{
+    display: flex;
+    justify-content: center;
+}
+
+.perfil_titu{
+    width: 100%;
+    font-size: 2em;
+    line-height: 30px;
+    color: #008f39;
+    padding-bottom: 50px;
+    border-bottom: solid 4px #008f39;
+}
+
+.perfil_u{
+    width: 90%;
+    margin: 10% 0 5px 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.area_p{ 
+    background-color: rgba(216, 90, 31, 0.212);
+    width: 95%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.perfil_img{
+    width: 35%;
+    height: 70%;
+}
+
+.info_form{
+    width: 60%;
+    line-height: 70px;
+    font-size: 17px;
+    padding-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.opcion-block{
+    
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+
+.add_input{
+    pointer-events: none;
+}
+
+.labels_info{
+    margin: 0 0 30px 0;
+    padding-right: 30px;
+    position: relative;
+}
+
+.inputs_info{
+    width: 250px;
+    padding: 1px 20px 1px 2px;
+    border: none;
+    border-bottom: 2px solid #008f39;
+    display: flex;
+    outline: 0;
+    background: transparent;
+    position: relative;
+    margin: 0;
+}
